@@ -1,0 +1,17 @@
+[
+{
+  "modid": "kotlinbasedmod",
+  "name": "Kotlin Based Mod",
+  "description": "A sample to show of to develop a mod with Kotlin",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mokona78"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
+

@@ -1,0 +1,38 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Exclude Forge MDK
+CREDITS-fml.txt
+ExampleMod.java
+forge-1.9-*-changelog.txt
+gradle-wrapper.jar
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+LICENSE-fml.txt
+MinecraftForge*
+MinecraftForge
+Paulscode*
+README.txt
+
+
