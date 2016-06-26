@@ -6,10 +6,16 @@ buildscript {
             url = "http://files.minecraftforge.net/maven"
         }
     }
+
+    ext.kotlin_version = "1.0.2"
+
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
+
+apply plugin: 'kotlin'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "0.1"
