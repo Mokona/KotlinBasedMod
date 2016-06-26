@@ -20,6 +20,7 @@ build
 # other
 eclipse
 run
+lib/kotlin*
 
 # Exclude Forge MDK
 CREDITS-fml.txt
