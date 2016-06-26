@@ -22,5 +22,7 @@ public class KotlinBasedMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        TestKotlin test = new TestKotlin(logger);
+        test.go();
     }
 }
