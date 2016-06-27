@@ -32,6 +32,15 @@ minecraft {
 }
 
 dependencies {
+    repositories {
+        maven {
+            name 'Tethys'
+            url 'http://tethys.drakon.io/maven'
+        }
+    }
+    compile("io.drakon.forge:kotlin-adapter:1.0.1+1.8.9") {
+        transitive = false
+    }
 }
 
 processResources
