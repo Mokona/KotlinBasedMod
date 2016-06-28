@@ -22,6 +22,9 @@ eclipse
 run
 lib/kotlin*
 
+# idea
+gradle-app.setting
+
 # Exclude Forge MDK
 CREDITS-fml.txt
 ExampleMod.java
