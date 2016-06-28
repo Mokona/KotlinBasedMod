@@ -18,7 +18,7 @@ object KotlinBasedMod {
     private var proxy: CommonProxy? = null
 
     private lateinit var logger: Logger
-    private val builder by lazy { ModBuilder() }
+    private val builder by lazy { ModBuilder(proxy!!) }
 
     @EventHandler
     fun preInit(event: FMLPreInitializationEvent) {
@@ -30,7 +30,3 @@ object KotlinBasedMod {
     fun init(event: FMLInitializationEvent) {
     }
 }
-
-open class CommonProxy
-class ClientSideProxy : CommonProxy()
-class ServerSideProxy : CommonProxy()
