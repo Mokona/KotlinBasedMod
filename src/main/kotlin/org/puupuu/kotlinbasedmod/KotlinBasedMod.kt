@@ -21,7 +21,5 @@ object KotlinBasedMod {
 
     @EventHandler
     fun init(event: FMLInitializationEvent) {
-        val test = TestKotlin(logger!!)
-        test.go()
     }
 }
