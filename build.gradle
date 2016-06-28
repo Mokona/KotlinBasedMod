@@ -31,6 +31,11 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
 
+// gradlew idea doesn't detect the path automatically
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/kotlin'
+}
+
 dependencies {
     repositories {
         maven {
